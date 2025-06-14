@@ -1,0 +1,30 @@
+{
+  "name": "Dev Container - PyTorch",
+  "build": {
+    "dockerfile": "../docker.explore-pytorch.Dockerfile",
+    "context": "."
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eriklynd.json-tools",
+        "ms-vscode.remote-containers",
+        "ms-azuretools.vscode-containers",
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-python.isort",
+        "ms-python.black-formatter",
+        "esbenp.prettier-vscode",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+        // "forwardPorts": [],
+        // "postCreateCommand": "pip install -r requirements.txt"
+      }
+    }
+  }
+}
