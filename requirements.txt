@@ -2,5 +2,6 @@
 torch
 torchvision
 torchaudio
-#pandas
-#numpy
+# pandas
+# numpy
+# matplotlib
